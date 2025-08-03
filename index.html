@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>romanvht</title>
+    <meta name="description" content="Сайт разработчика romanvht. Проекты, технологии и контактная информация.">
+    <meta name="keywords" content="разработчик, веб-разработка, backend, frontend, проекты, romanvht, контакты">
+    <meta name="author" content="romanvht">
+    <meta property="og:title" content="romanvht — веб-разработка и проекты">
+    <meta property="og:description" content="Технический профиль и портфолио romanvht. Стек технологий, примеры работ, способы связи.">
+    <meta property="og:image" content="assets/img/icon.png">
+    <meta property="og:url" content="https://romanvht.ru">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css?ver=1.2.0">
+</head>
+<body>
+    <div id="matrix-animation"></div>
+    <div id="terminal"></div>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/terminal.js"></script>
+    <script src="assets/js/command.js"></script>
+    <script src="assets/js/marked.js"></script>
+    <script src="assets/js/buu.js"></script>
+    <script>
+        const matrix = new MatrixAnimation('matrix-animation', 'romanvht');
+        const terminal = new Terminal('terminal');
+
+        setTimeout(() => { matrix.stop(); }, 5000);
+    </script>
+    <script src="assets/js/commands.js"></script>
+</body>
+</html>

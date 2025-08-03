@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: #00ff00;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+#matrix-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 10;
+}
+
+#ascii-animation {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre;
+    background-color: black;
+    color: #00ff00;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    font-size: 8px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: #00ff00;
+    font-family: monospace;
+    outline: none;
+    width: 100%;
+}
+
+.input-line {
+    display: flex;
+}
+
+.input-line span {
+    color: #00ff00;
+}
+
+.input-line input {
+    background: transparent;
+    border: none;
+    color: #00ff00;
+    font-family: monospace;
+    outline: none;
+    flex: 1;
+    caret-color: #00ff00;
+}
+
+#terminal {
+    position: relative;
+    overflow-y: auto;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+#terminal div {
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+#terminal h1,
+#terminal h2,
+#terminal h3,
+#terminal h4,
+#terminal h5,
+#terminal h6 {
+    color: #00ff00;
+    margin: 10px 0 5px 0;
+}
+
+#terminal p {
+    margin: 5px 0;
+}
+
+#terminal hr {
+    border: none;
+    border-bottom: 1px solid #00a000;
+}
+
+#terminal code {
+    background-color: #333;
+    padding: 2px 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#terminal pre {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+#terminal a {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+#terminal li {
+    margin-left: 20px;
+}
+
+#terminal img {
+    max-width: 100%;
+}
