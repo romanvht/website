@@ -32,10 +32,10 @@ terminal.registerCommand(new Command('info', 'Информация о себе',
             <p><strong>Ключевые навыки</strong></p>
             <ul>
                 <li><strong>Backend:</strong> PHP, Python, Kotlin, .NET (C#), Node JS</li>
-                <li><strong>Frontend:</strong> JavaScript, HTML5/CSS3, адаптивная вёрстка</li>
-                <li><strong>Базы данных:</strong> MySQL, PostgreSQL, Redis</li>
+                <li><strong>Frontend:</strong> JavaScript, HTML5/CSS3, Bootstrap</li>
+                <li><strong>Базы данных:</strong> MySQL, SQLite, PostgreSQL, Redis</li>
                 <li><strong>DevOps:</strong> Docker, Git, Nginx, Apache</li>
-                <li><strong>Прочее:</strong> Composer, Bash, 1С, MoySklad, REST API, Sphinx (Manticore)</li>
+                <li><strong>Прочее:</strong> Composer, Bash, REST, Sphinx/Manticore</li>
             </ul>
         </div>
     `);
